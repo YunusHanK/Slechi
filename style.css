@@ -25,9 +25,10 @@ body {
     position: relative;
     z-index: 1;
     max-width: 600px;
-    margin: 100px auto;
-    background-color: rgba(93, 171, 146, 0.8); /* Yeni renk paleti: Açık yeşil tonu */
+    margin: -70px auto;
+    background-color: rgba(93, 171, 146, 0.8);
     padding: 20px;
+    border: 2px solid black;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
@@ -39,4 +40,20 @@ h1 {
 p {
     color: #eee;
     line-height: 1.6;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#logo {
+    width: 256px;
+    height: 256px;
+    display: block;
+    margin: 0 auto;
 }
